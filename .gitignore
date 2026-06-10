@@ -1,0 +1,12 @@
+AGENTS.md
+WORKFLOW_STATE.md
+node_modules
+dist
+data
+*.db
+*.sqlite
+.env
+.env.local
+.DS_Store
+*.log
+.opencode/
