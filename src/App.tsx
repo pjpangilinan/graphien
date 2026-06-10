@@ -40,7 +40,7 @@ function App() {
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
       <nav className="flex flex-wrap items-center gap-3 p-4 sm:p-6 border-b-2 border-gray-300 dark:border-gray-700">
         <NavLink to="/" end className="flex items-center gap-2 sm:mr-6 hover:opacity-80 transition-opacity">
-          <img src="/logo.svg" alt="Graphien" className="h-8" />
+          <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="Graphien" className="h-8" />
           <span className="text-base sm:text-xl font-bold tracking-tight">Graphien</span>
         </NavLink>
         <button

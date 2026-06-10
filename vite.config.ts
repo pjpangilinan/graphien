@@ -49,7 +49,7 @@ export default defineConfig({
       },
     }),
   ],
-  base: './',
+  base: '/graphien/',
   server: {
     port: 5173,
     hmr: {
